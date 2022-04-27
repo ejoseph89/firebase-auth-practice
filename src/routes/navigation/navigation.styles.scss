@@ -1,0 +1,19 @@
+.navigation {
+  height: 50px;
+  max-width: 1100px;
+  padding: 0 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #1e1e1e;
+
+  .nav-links-container {
+    display: flex;
+
+    .nav-link:first-child {
+      padding-right: 20px;
+    }
+  }
+}
