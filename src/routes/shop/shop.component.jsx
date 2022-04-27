@@ -1,8 +1,8 @@
 const Shop = () => {
   return (
-    <div className="shop-container">
+    <section className="shop-container">
       <h1>Shop Page Component</h1>
-    </div>
+    </section>
   )
 }
 export default Shop

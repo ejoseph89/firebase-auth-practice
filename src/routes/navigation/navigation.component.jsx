@@ -7,9 +7,9 @@ import './navigation.styles.scss'
 const Navigation = () => {
   return (
     <Fragment>
-      <div className="navigation">
+      <section className="navigation">
         <Link to='/' className="logo-container">
-          <HiOutlineShare />
+          <HiOutlineShare className="logo"/>
         </Link>
         <div className="nav-links-container">
           <Link to='/shop' className="nav-link">
@@ -17,7 +17,7 @@ const Navigation = () => {
           </Link>
           <Link to='/auth' className="nav-link">Sign In</Link>
         </div>
-      </div>
+      </section>
       <Outlet />
     </Fragment>
   )

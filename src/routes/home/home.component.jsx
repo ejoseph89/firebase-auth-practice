@@ -2,9 +2,9 @@ import './home.styles.scss'
 
 const Home = () => {
   return (
-    <div className="home-container">
+    <section className="home-container">
       <h1>Home Page Component</h1>
-    </div>
+    </section>
   )
 }
 export default Home
