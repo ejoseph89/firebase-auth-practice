@@ -6,20 +6,27 @@ const SignUpForm = () => {
         <p>Sign up with your email and password</p>
         <form className="auth-form">
           <label htmlFor="username">username</label>
-          <input type="text" name="username" id="username" />
+          <input type="text" name="username" id="username" autoComplete="on" />
           <label htmlFor="sign-up-email">email</label>
-          <input type="email" name="sign-up-email" id="sign-up-email" />
+          <input
+            type="email"
+            name="sign-up-email"
+            id="sign-up-email"
+            autoComplete="on"
+          />
           <label htmlFor="sign-up-password">password</label>
           <input
             type="password"
             name="sign-up-password"
             id="sign-up-password"
+            autoComplete="on"
           />
           <label htmlFor="confirm-password">confirm password</label>
           <input
             type="password"
             name="confirm-password"
             id="confirm-password"
+            autoComplete="on"
           />
           <div className="auth-form-submit">
             <button type="submit">Sign Up</button>
