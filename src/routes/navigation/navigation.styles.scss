@@ -17,9 +17,14 @@
 
   .nav-links-container {
     display: flex;
+    font-weight: 500;
 
     .nav-link:first-child {
       padding-right: 20px;
+    }
+
+    .nav-link:hover {
+      cursor: pointer;
     }
   }
 }
